@@ -48,8 +48,8 @@ pageextension 50100 SaleOrderExt extends "Sales Order"
     begin
         //Message('Always Success.');
         // SetRange("User Name", 'INTNCBATNACRL02\ADMIN');   
-        Gtext := CUMycodeunit.QueryResult('1000');  // Item No passing
-        Message('%1', Gtext);
+        // Gtext := CUMycodeunit.QueryResult('1000');  // Item No passing
+        // Message('%1', Gtext);
     end;
 
 
