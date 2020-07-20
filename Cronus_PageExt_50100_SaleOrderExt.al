@@ -41,6 +41,7 @@ pageextension 50100 SaleOrderExt extends "Sales Order"
 
 
     }
+
     trigger OnOpenPage();
     var
         CUMycodeunit: Codeunit MyCodeunit;
@@ -51,7 +52,6 @@ pageextension 50100 SaleOrderExt extends "Sales Order"
         // Gtext := CUMycodeunit.QueryResult('1000');  // Item No passing
         // Message('%1', Gtext);
     end;
-
 
 
 }

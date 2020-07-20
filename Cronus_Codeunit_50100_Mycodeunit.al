@@ -40,6 +40,7 @@ codeunit 50100 MyCodeunit
     begin
         ProdOrderLine.Sales_No := SalesLine."Document No.";
         ProdOrderLine.Sales_Line := SalesLine."Line No.";
+        ProdOrderLine.Modify();
     end;
 
 
