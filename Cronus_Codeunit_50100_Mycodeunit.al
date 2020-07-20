@@ -27,6 +27,23 @@ codeunit 50100 MyCodeunit
         /*  */
     end;
 
+
+
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Create Prod. Order Lines", 'OnBeforeProdOrderLineInsert', '', true, true)]
+    local procedure "Create Prod. Order Lines_OnBeforeProdOrderLineInsert"
+    (
+        var ProdOrderLine: Record "Prod. Order Line";
+        var ProductionOrder: Record "Production Order";
+        SalesLineIsSet: Boolean;
+        var SalesLine: Record "Sales Line"
+    )
+    begin
+        ProdOrderLine.Sales_No := SalesLine."Document No.";
+        ProdOrderLine.Sales_Line := SalesLine."Line No.";
+    end;
+
+
+
     procedure QueryResult(Value: Text): Decimal // this return procedure
 
     var
