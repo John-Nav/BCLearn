@@ -19,6 +19,7 @@ tableextension 50100 PurLineEx extends "Purchase Line"
             InitValue = 0.0;
 
         }
+
     }
 
     var

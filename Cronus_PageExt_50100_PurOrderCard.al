@@ -17,8 +17,8 @@ pageextension 50104 PurOrderExt extends 50
                 RecUserSetup.SetRange(Post_Permission, true);
                 if RecUserSetup.IsEmpty then begin
                     Error(Text1001);
-                 end;
-                
+                end;
+
             end;
         }
     }
