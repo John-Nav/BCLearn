@@ -3,7 +3,7 @@ tableextension 50104 ProdOrdComp extends 5407
     fields
     {
         // Add changes to table fields here
-        field(50000; Purchaser; Code[20])
+        field(50000; Purchaser; Code[30])
         {
             DataClassification = ToBeClassified;
             // FieldPropertyName = FieldPropertyValue;

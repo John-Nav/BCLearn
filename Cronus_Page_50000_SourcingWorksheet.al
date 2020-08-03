@@ -1,9 +1,11 @@
 page 50100 SourcingWorkSheet
 {
     PageType = List;
+    Caption = 'Sourcing Worksheet';
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = 5407;
+
 
     layout
     {

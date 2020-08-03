@@ -3,7 +3,7 @@ tableextension 50103 ProdBomLine extends 99000772
     fields
     {
         // Add changes to table fields here
-        field(50000; Puchaser; Code[20])
+        field(50000; Puchaser; Code[30])
         {
             DataClassification = ToBeClassified;
             // FieldPropertyName = FieldPropertyValue;
